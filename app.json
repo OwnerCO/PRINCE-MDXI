@@ -22,12 +22,12 @@
     "OWNER_NAME": {
       "description": "Put Owner Name Here",
       "required": true,
-      "value": "PRINCE"
+      "value": "SYSSOLUTIONS"
     },
     "OWNER_NUMBER": {
       "description": "Put only one Owner Number Here ie 237xxxxx",
       "required": true,
-      "value": "237677224245"
+      "value": "51960285930"
     },
     "ANTI_DELETE": {
       "description": "Can be set to 'inboxonly' to recover for personal chats only, 'chatsonly' to recover for groups and personal chats only or 'true' to recover all chats and status updates. Default is 'false'. You can set up this later using .antidelete",
@@ -37,12 +37,12 @@
     "SUDO_NUMBERS": {
       "description": "Put Sudo Numbers separated by comma Here ie 2347xxxx,2357xxxxx,920xxxxx. Sudos have same rights as owner(can command the bot). if you don't want leave the space empty",
       "required": false,
-      "value": ""
+      "value": "51960285930"
     },
     "CHAT_BOT": {
       "description": "Put value to 'true' to enablle for all chats or 'inbox' to ebanle in pm(inbox) chats only or 'groups' to enable in groups only else false. You can set up this later using .chatbot",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_READ_STATUS": {
       "description": "Make it 'true' if you want bot to view statuses. You can set up this later using .autoview",
@@ -83,12 +83,12 @@
     "ANTILINK": {
       "description": "Enter 'true' to delete links and kick the user automatically or 'delete' to delete the links without kicking the user or 'warn' to warn users 3 times before kicking them. You can set up this later using .antilink",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "ANTIBAD": {
       "description": "Enter 'true' to automatically delete bad words sent by users in groups. You can set up this later using .antibad",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "BAD_WORDS": {
       "description": "Enter bad words separated by a comma(will be deleted if ANTIBAD is set to true)",
@@ -114,7 +114,7 @@
     "ANTICALL": {
       "description": "Make it 'true' if you want to automatically reject calls or 'block' to decline calls and block caller. You can set up this later using .anticall",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "ANTICALL_MSG": {
       "description": "Put Your own Anticall Message the bot will send after rejecting calls",
@@ -124,13 +124,13 @@
     "BOT_NAME": {
       "description": "You can edit this but maintain font style for uniformity. Use 'Fonts Type Keyboard' for styles.",
       "required": false,
-      "value": "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗"
+      "value": "SYSSOLUTIONS 𝐌𝐃𝐗"
     },
     
     "PACK_NAME": {
       "description": "You can enter your sticker pack name.",
       "required": false,
-      "value": "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗𝐈"
+      "value": "SYSSOLUTIONS 𝐌𝐃𝐗𝐈"
     },
     "PREFIX": {
       "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
